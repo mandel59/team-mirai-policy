@@ -15,6 +15,8 @@ jobs:
         with:
           use-quiet-mode: 'no'
           use-verbose-mode: 'yes'
+          check-modified-files-only: 'yes'
+          base-branch: 'main'
           config-file: '.github/markdown-link-check-config.json'
           folder-path: '.'
           max-depth: -1
